@@ -40,7 +40,7 @@ public class LogginLabTest {
 
 
     @Test
-    public void thresholdReached() { // NEW TEST
+    public void thresholdReached() { // NEW TEST FOR thresholdReached
         Integer finalLimit = 5;
 
         LogginLab lab = new LogginLab();
