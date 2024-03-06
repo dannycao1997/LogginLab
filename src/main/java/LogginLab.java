@@ -44,10 +44,9 @@ public class LogginLab {
     // use thresholdExceeds for a pattern.
     // Write a test for the method in the Test class.
     public boolean thresholdReached(Integer limit) { //NEW METHOD
-        if (limit > this.threshold) {
+        if (this.threshold < limit)
             return true;
-        } else {
+        else
             return false;
         }
     }
-}
